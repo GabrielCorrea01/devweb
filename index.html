@@ -1,12 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Bootstrap</title>
 </head>
+
 <body>
-    
+
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+        <div class="container">
+            <ul class="nav nav-pills">
+                <div class="nav-item">
+                    <a class="nav-link nav-item" href="#"><i class="fa-solid fa-house"
+                            style="color: #111b2d;"></i></i></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="botao de navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <div class="navbar-nav mr-auto">
+                        <li class="nav-link nav-item" href="#ofertas">Ofertas</li>
+                        <div class="dropdown">
+                            <a class="nav-link nav-item dropdown-toggle" href="#" data-toggle="dropdown">Categorias</a>
+                            <div class="dropdown-menu">
+                                <li class="dropdown-item" href="#promoBebidas">Bebidas</li>
+                            </div>
+                        </div>
+                        <li class="nav-link nav-item" href="#blog">Blog</li>
+                    </div>
+            </ul>
+            <div class="navbar-nav">
+
+                <a class="nav-link nav-item" href="#pedidos"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a class="nav-link nav-item" href="#janelamodal"><i class="fa-solid fa-user"></i> Entrar</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="jumbotron text-center mb-4" style="margin-top: 89px;">
+            <h5>Bem vindo ao supermercado GC!</h5>
+        </div>
+
+        <h4 id="passeios" class="mb-3">Porque comprar conosco?</h4>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <img src="assets/images/p-ciclovia.jpg" alt="preço">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="card-title">Preço amigo</h5>
+                        </div>
+                        <p class="card-text text-justify">Lorem Ipsum é simplesmente uma simulação de texto da indústria
+                            tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor
+                            desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de
+                            tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+                            eletrônica, permanecendo essencialmente inalterado.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <img src="assets/images/p-copacabana.jpg" alt="Copacabana">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="card-title">Atendimento especializado!</h5>
+                        </div>
+                        <p class="card-text text-justify">Lorem Ipsum é simplesmente uma simulação de texto da indústria
+                            tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor
+                            desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de
+                            tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+                            eletrônica, permanecendo essencialmente inalterado.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <img src="assets/images/p-cristo-redentor.jpg" alt="Cristo Redentor">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="card-title">Qualidade incomparável</h5>
+                        </div>
+                        <p class="card-text text-justify">
+                            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e
+                            vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja
+                            de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não
+                            só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo
+                            essencialmente inalterado.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card mb-3">
+                    <img src="assets/images/p-arcos-da-lapa.jpg" alt="Lapa">
+                    <div class="card-body">
+                        <div class="text-center">
+                            <h5 class="card-title">Sempre perto de você</h5>
+                        </div>
+                        <p class="card-text text-justify">
+                            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e
+                            vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja
+                            de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não
+                            só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo
+                            essencialmente inalterado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/jquery-3.3.1.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/js/script.js"></script>
 </body>
+
 </html>
